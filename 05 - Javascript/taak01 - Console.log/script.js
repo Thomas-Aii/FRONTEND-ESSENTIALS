@@ -1,1 +1,1 @@
-console.log("mijn naam is thomas en di tis mijn eerste console bericht");
+console.log("mijn naam is thomas en dit is mijn eerste console bericht");
