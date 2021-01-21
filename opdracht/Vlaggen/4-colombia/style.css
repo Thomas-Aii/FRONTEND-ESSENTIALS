@@ -1,0 +1,21 @@
+#container{
+    width: 800px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+#bovenkant{
+    width: 800px;
+    height: 50%;
+    background-color: yellow;
+}
+#midden{
+    width: 800px;
+    height: 25%;
+    background-color:blue;
+}
+#onderkant{
+    width: 800px;
+    height: 25%;
+    background-color:red;
+}

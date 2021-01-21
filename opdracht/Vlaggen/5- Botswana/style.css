@@ -1,0 +1,23 @@
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+#bovenkant{
+    width: 900px;
+    height: 225px;
+    background-color: lightskyblue;
+}
+#midden{
+    width: 900px;
+    height: 130px;
+    background-color: black;
+    border-top:10px solid white ;
+    border-bottom: 10px solid white ;
+}
+#onderkant{
+    width: 900px;
+    height: 225px;
+    background-color: lightskyblue;
+}
