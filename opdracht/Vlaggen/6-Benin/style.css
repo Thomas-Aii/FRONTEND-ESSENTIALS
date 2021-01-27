@@ -1,24 +1,28 @@
 #container{
     width: 900px;
     height: 600px;
- 
+    background-color: blanchedalmond;
 }
 #Links{
     width: 300px;
     height: 600px;
     background-color: green;
     display: inline-block;
+    margin-right: -4px;
 }
-#rechtsboven{
+#Rechts{
+    width: 600px;
+    height: 600px;
+    background-color: purple;
+    display: inline-block;
+}
+#boven{
     width: 600px;
     height: 300px;
     background-color: yellow;
-    display: inline-block;
-
 }
-#rechtonder{
+#onder{
     width: 600px;
     height: 300px;
     background-color: red;
-    display: inline-block;
 }

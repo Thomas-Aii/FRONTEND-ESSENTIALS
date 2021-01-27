@@ -1,0 +1,46 @@
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: rosybrown;
+}
+#Links{
+    width: 350px;
+    height: 600px;
+    background-color: saddlebrown;
+    display: inline-block;
+    margin-right: -4px;
+}
+#Rechts{
+    width: 550px;
+    height: 600px;
+    background-color: sandybrown;
+    display: inline-block;
+}
+#Linksboven{
+    width: 300px;
+    height: 250px;
+    background-color: red;
+    border-right: solid 75px white;
+    border-bottom: solid 75px white;
+}
+#Linksonder{
+    width: 300px;
+    height: 250px;
+    background-color: red;
+    border-right:solid 75px white ;
+    border-top: solid 25px white ;
+}
+#Rechtsboven{
+    width: 525px;
+    height: 250px;
+    background-color: red;
+    border-left: solid 25px white;
+    border-bottom: solid 75px white;
+}
+#Rechtsonder{
+    width: 525px;
+    height: 250px;
+    background-color: red;
+    border-left: solid 25px white ;
+    border-top: solid 25px white;
+}

@@ -1,0 +1,99 @@
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: rosybrown;
+}
+#Links{
+    width: 350px;
+    height: 600px;
+    background-color: blue;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: -300px;
+}
+#Rechts{
+    width: 550px;
+    height: 600px;
+    background-color: blue;
+    display: inline-block;
+}
+#Linksboven{
+    width: 300px;
+    height: 250px;
+    background-color: red;
+}
+#Linksonder{
+    width: 300px;
+    height: 250px;
+    background-color:red;
+    margin-top: 100px;
+}
+#Rechtsboven{
+    width: 525px;
+    height: 250px;
+    background-color: red;
+    margin-left: 25px;
+}
+#Rechtsonder{
+    width: 525px;
+    height: 250px;
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+#Linksbovenrechts{
+    width: 30px;
+    height:250px ;
+    background-color: white;
+    margin-left: 300px;
+    border-right: solid 50px blue;
+}
+#Linksbovenonder{
+    width: 330px;
+    height: 25px;
+    background-color: white;
+    border-bottom: solid 75px blue ;
+}
+#Linksonderboven{
+    width: 325px;
+    height: 25px;
+    background-color: white;
+    position: relative;
+    bottom: 250px;
+}
+#Linksonderrechts{
+    width: 25px;
+    height: 250px;
+    background-color: white;
+    margin-left: 300px; 
+    border-right: solid 50px blue;
+}
+#Rechtsbovenlinks{
+    width: 30px;
+    height: 250px;
+    background-color: white;
+    border-left: solid 50px blue;
+    margin-left: -25px;
+}
+#Rechtsbovenonder{
+    width: 500px;
+    height: 25px;
+    background-color: white;
+    margin-left: 25px;
+    border-bottom: solid 75px blue;
+}
+#Rechtsonderlinks{
+    width: 25px;
+    height: 250px;
+    background-color: white;
+    border-left: solid 50px blue;
+    margin-left: -25px;
+}
+#Rechtsonderboven{
+    width: 500px;
+    height: 25px;
+    background-color: white;
+    position: relative;
+    bottom: 250px;
+    margin-left: 25px;
+}
