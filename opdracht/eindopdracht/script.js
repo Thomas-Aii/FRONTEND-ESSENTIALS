@@ -1,27 +1,11 @@
-prompt("wat is je voornaam?")
-        prompt("wat is je achternaam?")
-        prompt("wat is je emailadres?")
-        prompt("wat is je woonplaats?")
 
-
- 
-let leeftijd = prompt ("wat is je leeftijd");
-let stemleeftijd = 17;
- 
-  // TRUE or FALSE
-if(leeftijd >= stemleeftijd){
- //Als de gebruiker (bezoeker) 16 jaar dan wordt de achtergrond kleur van index.html een lichtblauwe kleur kleur
- 
-}
-document.querySelector("body").style.backgroundColor = 'orange';
- 
 //TODO: input van gebruiker in obejct persoon opslaan, alle 5 eigenschappen erbij.
 let persoon = {
     voornaam : prompt("Wat is je naam?"),
     achternaam : prompt("Wat is je achternaam?"),
-    leeftijd : prompt("Wat is je leeftijd?"),
- 
-   
+    email : prompt("wat is je emailadres?"),
+    woonplaats : prompt("wat is je woonplaats?"),
+    leeftijd : prompt("wat is je leeftijd?")
 };
 console.log(persoon);
 console.log(persoon.achternaam);
