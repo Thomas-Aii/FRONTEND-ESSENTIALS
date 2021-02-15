@@ -10,12 +10,12 @@ let persoon = {
 console.log(persoon);
 console.log(persoon.achternaam);
  
-    
+
  
 // let persoonelement = document.querySelector(".container")
 // persoonelement.innerHTML = "Thomas Pos"
  
-let mijnLeeftijd= prompt("wat is je leeftijd?");
+
 let stemGerechtigheid= 18
 let lichtblauwekleur= 16
 let groenkleur= 17
@@ -25,12 +25,12 @@ if (persoon.leeftijd==stemGerechtigheid){
    document.querySelector("body").style.backgroundColor="gold"
 }
  
-if (mijnLeeftijd==lichtblauwekleur){
+if (persoon.leeftijd==lichtblauwekleur){
    document.querySelector("body").style.backgroundColor="lightblue"
 }
-if (mijnLeeftijd==groenkleur){
+if (persoon.leeftijd==groenkleur){
    document.querySelector("body").style.backgroundColor="green"
 }
-if (mijnLeeftijd==geelkleur){
+if (persoon.leeftijd==geelkleur){
    document.querySelector("body").style.backgroundColor="yellow"
 }
