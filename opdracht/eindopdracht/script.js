@@ -1,36 +1,28 @@
-
-//TODO: input van gebruiker in obejct persoon opslaan, alle 5 eigenschappen erbij.
-let persoon = {
-    voornaam : prompt("Wat is je naam?"),
-    achternaam : prompt("Wat is je achternaam?"),
-    email : prompt("wat is je emailadres?"),
-    woonplaats : prompt("wat is je woonplaats?"),
-    leeftijd : prompt("wat is je leeftijd?")
+let bezoeker = {
+  Voornaam : prompt("Wat is uw voornaam?"),
+  achternaam : prompt("Wat is uw achternaam?"),
+  leeftijd : prompt("Hoe oud ben u?"),
+  Woonplaats : prompt("Wat is uw woonplaats?"),
+  Email : prompt("Wat is uw e-mailadres?"),
 };
-console.log(persoon);
-console.log(persoon.achternaam);
- 
+console.log(bezoeker);
+if(bezoeker.leeftijd==16) {
+  document.body.style.backgroundColor="blue" 
+} else {
+  document.body.style.backgroundColor="Black"
+}
+if(bezoeker.leeftijd==17) {
+  document.body.style.backgroundColor="green"
+}
+if(bezoeker.leeftijd==18) {
+  document.body.style.backgroundColor="red"
+}
+if(bezoeker.leeftijd==19) {
+  document.body.style.backgroundColor="pink"
+}
 
- 
-// let persoonelement = document.querySelector(".container")
-// persoonelement.innerHTML = "Thomas Pos"
- 
-
-let stemGerechtigheid= 18
-let lichtblauwekleur= 16
-let groenkleur= 17
-let geelkleur= 19
-if (persoon.leeftijd==stemGerechtigheid){
-   // Als de gebruiker (bezoeker) 16 jaar dan wordt de achtergrond kleur van index.html een Lichtblauwe kleur
-   document.querySelector("body").style.backgroundColor="gold"
-}
- 
-if (persoon.leeftijd==lichtblauwekleur){
-   document.querySelector("body").style.backgroundColor="lightblue"
-}
-if (persoon.leeftijd==groenkleur){
-   document.querySelector("body").style.backgroundColor="green"
-}
-if (persoon.leeftijd==geelkleur){
-   document.querySelector("body").style.backgroundColor="yellow"
-}
+document.querySelector("#Voornaam").innerHTML = bezoeker.Voornaam;
+document.querySelector("#Achternaam").innerHTML = bezoeker.achternaam;
+document.querySelector("#Leeftijd").innerHTML = bezoeker.leeftijd;
+document.querySelector("#Woonplaats").innerHTML = bezoeker.Woonplaats;
+document.querySelector("#E-mail").innerHTML = bezoeker.Email;
