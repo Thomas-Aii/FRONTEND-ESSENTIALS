@@ -20,9 +20,3 @@ if(bezoeker.leeftijd==18) {
 if(bezoeker.leeftijd==19) {
   document.body.style.backgroundColor="pink"
 }
-
-document.querySelector("#Voornaam").innerHTML = bezoeker.Voornaam;
-document.querySelector("#Achternaam").innerHTML = bezoeker.achternaam;
-document.querySelector("#Leeftijd").innerHTML = bezoeker.leeftijd;
-document.querySelector("#Woonplaats").innerHTML = bezoeker.Woonplaats;
-document.querySelector("#E-mail").innerHTML = bezoeker.Email;
